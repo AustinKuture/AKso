@@ -13,19 +13,19 @@
 from setuptools import setup, find_packages
 
 setup(
-    name = "akso",
-    version = "0.0.1",
-    keywords = ("pip", "akso", ".so", "cython", "kuture", "transform so"),
+    name = "aksoso",
+    version = "0.1.2",
+    keywords = ("pip", "aksoso", ".so", "cython", "kuture", "transform so"),
     description = "transform python file to .so file",
     long_description = "将python项目批量编译成.so 文件",
     license = "MIT Licence",
 
-    url = "",
+    url = "https://github.com/AustinKuture/AKso.git",
     author = "Kuture",
     author_email = "kuture@163.com",
 
     packages = find_packages(),
     include_package_data = True,
     platforms = "any",
-    install_requires = ['tqdm', 'distutils', 'cythonize']
+    install_requires = []
 )
